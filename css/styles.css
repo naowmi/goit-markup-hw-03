@@ -8,6 +8,14 @@ a {
 }
 ul {
     list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+img {
+    display: block;
+}
+h1, h2, h3, p {
+    margin: 0;
 }
 /* HEADER */
 .header-subtitle {
