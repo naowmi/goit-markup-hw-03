@@ -237,24 +237,55 @@ p {
   letter-spacing: 0.02em;
 }
 /* SECTION OUR PORTFOLIO */
+.portfolio-section {
+  height: 1000px;
+  flex-shrink: 0;
+}
 .portfolio-title {
-  color: #2e2f42;
+  color: var(--navyblue);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.portfolio-list-content {
+  border: 1px solid var(--cornflower);
+  background: var(--white);
+  display: flex;
+  width: 360px;
+  height: 420px;
+  padding-bottom: 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex-shrink: 0;
+}
+.portfolio-card-content {
+  display: flex;
+  padding: 0px 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+}
+
 .portfolio-services {
-  color: #2e2f42;
+  color: var(--navyblue);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .portfolio-description {
-  color: #434455;
+  color: var(--slate);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
