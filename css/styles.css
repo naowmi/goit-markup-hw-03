@@ -292,15 +292,18 @@ p {
 }
 /* FOOTER */
 .footer-section {
-  background-color: #2e2f42;
+  background-color: var(--navyblue);
+  height: 312px;
+  flex-shrink: 0;
+  margin-left: 156px;
 }
 
 .footer-subtitle {
-  color: #f4f4fd;
+  color: var(--cloud);
 }
 
 .footer-title {
-  color: #4d5ae5;
+  color: var(--iris);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -309,8 +312,17 @@ p {
   text-transform: uppercase;
 }
 .footer-text {
-  color: #f4f4fd;
+  color: var(--cloud);
+  width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.footer-item {
+  padding-top: 100px;
+  display: inline-flex;
+  height: 24px;
+  align-items: center;
+  flex-shrink: 0;
+  margin-bottom: 17.5px;
 }
