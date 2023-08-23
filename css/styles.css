@@ -186,29 +186,52 @@ p {
 }
 /* SECTION OUR TEAM */
 .team-section {
-  background-color: #f4f4fd;
+  background-color: var(--cloud);
+  height: 732px;
+  flex-shrink: 0;
+  margin-bottom: 60px;
 }
+
 .team-title {
-  color: #2e2f42;
+  color: var(--navyblue);
   text-align: center;
+  text-transform: capitalize;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
+  padding-bottom: 72px;
 }
 .team-list {
-  background-color: #ffffff;
+  display: flex;
+}
+.team-list-content {
+  background-color: var(--white);
+  display: inline-flex;
+  padding-bottom: 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  margin-right: 24px;
+}
+.team-card-content {
+  display: flex;
+  width: 232px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
 }
 .team-name {
-  color: #2e2f42;
+  color: var(--navyblue);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .team-position {
-  color: #434455;
+  color: var(--slate);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
