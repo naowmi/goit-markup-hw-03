@@ -251,15 +251,11 @@ p {
 }
 /* SECTION OUR PORTFOLIO */
 .portfolio-section {
-  height: 1000px;
   flex-shrink: 0;
   padding-top: 120px;
   padding-bottom: 120px;
 }
 .portfolio-content {
-  padding: 32px 16px;
-  border: 1px solid var(--cornflower);
-  border-top: none;
 }
 .portfolio-title {
   color: var(--navyblue);
@@ -269,7 +265,7 @@ p {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  margin-bottom: 8px;
+  margin-bottom: 72px;
 }
 .portfolio-list {
   display: flex;
@@ -288,16 +284,16 @@ p {
   padding-bottom: 0px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 32px;
   flex-shrink: 0;
 }
 .portfolio-card-content {
   display: flex;
-  padding: 0px 16px;
+  padding: 32px 16px;
+  border: 1px solid var(--cornflower);
+  border-top: none;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 8px;
   align-self: stretch;
 }
 
@@ -307,6 +303,7 @@ p {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .portfolio-description {
   color: var(--slate);
@@ -324,11 +321,11 @@ p {
 }
 
 .footer-subtitle {
+  display: inline-block;
   color: var(--cloud);
 }
 
 .footer-title {
-  display: inline-block;
   color: var(--iris);
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
@@ -336,7 +333,6 @@ p {
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
-
   margin-bottom: 16px;
 }
 .footer-text {
