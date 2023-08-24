@@ -307,7 +307,7 @@ p {
 }
 
 .footer-title {
-  display: inline-flex;
+  display: inline-block;
   color: var(--iris);
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
